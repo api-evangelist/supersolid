@@ -1,8 +1,24 @@
 aid: supersolid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supersolid.png
 name: Supersolid
-description: 'Supersolid is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Supersolid is a London, UK based mobile game developer and publisher, backed by Index
+  Ventures, that designs and operates free-to-play mobile titles across merge, cooking, simulation,
+  and multiplayer arena genres. Its portfolio includes Cook & Merge, Snake Rivals, Home Street, Food
+  Street, Adventure Town, Super Penguins, and RoPets. Supersolid is a consumer-facing games studio and
+  does not publish a public developer API, SDK, or developer portal; this API Evangelist profile captures
+  its public web properties (support, careers, terms, privacy) and domain-security posture. It was
+  surfaced as a portfolio company of Index Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/supersolid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Entertainment
+- Gaming
+- Mobile Games
+- Game Studio
+- Mobile
+- Free-to-Play
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: http://supersolid.com
+- type: Support
+  url: https://supersolid.com/support
+- type: TermsOfService
+  url: https://supersolid.com/tos
+- type: PrivacyPolicy
+  url: https://supersolid.com/privacy
+- type: Careers
+  url: https://supersolid.com/careers
+- type: DomainSecurity
+  url: security/supersolid-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
